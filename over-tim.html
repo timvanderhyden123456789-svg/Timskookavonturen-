@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Updates | Tims kook avonturen</title>
+  <meta name="description" content="Tims kook avonturen: professionele keukenverhalen, wijn-spijsinspiratie en eerlijke foodcontent uit de praktijk." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="">
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Tims kook avonturen</a>
+      <nav class="nav">
+        <a class="nav-btn " href="index.html"><span>Home</span></a>
+        <a class="nav-btn " href="blog.html"><span>Blog</span></a>
+        <a class="nav-btn " href="over-tim.html"><span>Over Tim</span></a>
+        <a class="nav-btn active" href="email.html"><span>Updates</span></a>
+        <a class="nav-btn " href="social.html"><span>Socials</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="page-head">
+      <div class="eyebrow-dark">Updates</div>
+      <h1>Speel mee en blijf op de hoogte</h1>
+      <p>
+        Luchtig en een beetje speels: haal de mini retro challenge en schrijf je daarna in voor updates over nieuwe gerechten, blogs, wijnmomenten en video's van Tims kook avonturen.
+      </p>
+    </section>
+
+    <section class="email-grid">
+      <div class="retro-shell">
+        <div class="retro-screen">
+          <div class="retro-top">
+            <span>Retro chef challenge</span>
+            <span>Press space</span>
+          </div>
+
+          <div class="game" id="game">
+            <div class="ground"></div>
+            <div class="ground-line"></div>
+            <div class="chef" id="chef">👨‍🍳</div>
+            <div class="overlay" id="game-overlay">
+              <div class="overlay-card">
+                <p class="small" id="overlay-title">Start klaar</p>
+                <p id="overlay-copy">Druk op spatie of op start.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="game-status">
+            <span id="score-text">Gehaald: 0/3</span>
+            <span id="status-text">Status: Klaar om te starten</span>
+          </div>
+
+          <div class="game-actions">
+            <button class="btn-dark" id="start-game">Start spel</button>
+            <button class="btn-ghost" id="jump-game">Spring</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-shell" style="margin-top: 0;">
+        <h2>Ontvang nieuwe keukenverhalen</h2>
+        <p>
+          Nadat je de mini challenge hebt gehaald, kun je je aanmelden voor updates over nieuwe blogs, gerechten, wijnmomenten en video’s. Het formulier staat nu klaar als demo en kan later worden gekoppeld aan een echte e-mailtool.
+        </p>
+
+        <div class="notice" id="locked-notice">
+          Speel eerst de mini challenge en ontgrendel daarna het formulier.
+        </div>
+
+        <form id="email-form" style="display:none; margin-top: 18px;">
+          <div class="field">
+            <label for="name">Naam</label>
+            <input id="name" type="text" placeholder="Bijvoorbeeld: Sophie" />
+          </div>
+          <div class="field">
+            <label for="email">E-mailadres</label>
+            <input id="email" type="email" placeholder="jij@email.nl" required />
+          </div>
+          <div class="field">
+            <button class="btn-dark" type="submit">Aanmelden</button>
+          </div>
+        </form>
+
+        <div class="success" id="success-box" style="display:none;"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Over Tim</h3>
+        <p>Tim is professioneel kok en hobbykok met een liefde voor vis, vegetarische gerechten, wijn-spijscombinaties, restaurantinspiratie en verhalen uit de keuken die je echt iets laten proeven van het vak.</p>
+      </div>
+      <div>
+        <h3>Kanalen</h3>
+        <div class="footer-links">
+          <a class="footer-link is-page" href="over-tim.html">Over Tim</a>
+          <a class="footer-link" href="https://www.youtube.com/@timskookavonturen" target="_blank" rel="noreferrer">YouTube</a>
+          <a class="footer-link" href="https://www.instagram.com/tims.kook.avonturen" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="footer-link" href="https://www.tiktok.com/@tims.kook.avonture" target="_blank" rel="noreferrer">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
