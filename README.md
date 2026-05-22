@@ -1,24 +1,8 @@
-# Tims kook avonturen - GitHub Pages multipage
+Tims kook avonturen — CRO update
 
-Deze versie is omgezet naar een klassieke multipage website voor GitHub Pages.
+Deze versie bevat drie verbeteringen:
+1. Header-icoontjes verwijderd voor stabielere weergave in alle browsers.
+2. Emoji-icoontjes op de homepagina verwijderd voor een professionelere uitstraling.
+3. Tekst rond het spel/e-maildeel herschreven naar een speelsere, minder drempelverhogende formulering.
 
-Bestanden:
-- index.html
-- blog.html
-- email.html
-- social.html
-- styles.css
-- script.js
-- .nojekyll
-
-## Publiceren op GitHub Pages
-1. Maak een nieuwe repository aan op GitHub.
-2. Upload alle bestanden uit deze map naar de root van de repository.
-3. Ga naar Settings > Pages.
-4. Kies Deploy from a branch.
-5. Kies branch `main` en folder `/ (root)`.
-6. Wacht een paar minuten tot GitHub Pages live staat.
-
-## Waarom deze versie
-De eerdere versie was een single-page site met interne secties en JavaScript navigatie.
-Deze versie gebruikt echte losse HTML-pagina's, wat vaak duidelijker en robuuster werkt op GitHub Pages.
+Upload alle bestanden uit deze map opnieuw naar de root van je GitHub repository en laat de oude bestanden overschrijven.
